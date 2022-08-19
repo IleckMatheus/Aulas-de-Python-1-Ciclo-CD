@@ -1,0 +1,125 @@
+#A = 5
+#B = 15
+#C = 20
+
+#print("A == B AND B > C : ", A == B and B > C)
+#print("A < B OR B > C : ", A < B or B > C)
+#print("not A == B : ", not A == B)
+
+# ===================================================
+
+#codigo = 10
+#salario = 1500.00
+#nome = 'Jose'
+#situação = True
+
+#tipo = type(salario)
+
+#print(salario)
+#print(tipo)
+
+# ===================================================
+
+#codigo = 10
+#salario = 1500.00
+#nome = 'jose'
+
+#print("código: " + str(codigo) + ", nome: " + nome + ", o salario autal é de: "+ str(salario))
+
+# ===================================================
+
+#fruta = input("Digite o nome de uma fruta")
+#print(fruta)
+
+# ===================================================
+
+#codigo = int(input("Digite o codigo do funcionario: "))
+#salario = float(input("Informe o salario: "))
+
+#print("Codigo: %d "%  codigo)
+#print("Salario: %.2f " % salario)
+
+# ===================================================
+
+#idade = int (input("Digite a idade: "))
+
+#if idade >= 18:
+   # print("maior idade")
+#else:
+   # print("menor idade")
+
+# ===================================================
+
+#for n in range(10):
+    #print(n)
+
+
+#x = 1;
+#while x<=15:
+    #print(x);
+    #x=x+1
+
+#qtd = 0
+#soma = 0
+#media = 0
+#valor = float(input("Digite um valor: "))
+
+#while (valor > 0.0):
+    #soma = soma + valor
+    #qtd = qtd + 1
+
+    #valor = float(input("Digite um valor: "))
+
+#media = soma / qtd
+
+#print("\n Total da soma: ", soma)
+#print("\n Quantidade de valores digitados: ", qtd)
+#print("\n Média dos valores: ", media)
+
+
+# ==========================================
+
+#def é uma função
+
+#def mensagem1():
+    #print("Hello World")
+
+#def mensagem2():
+    #return 'Hello World'
+
+#mensagem1()
+
+#texto = mensagem2()
+#print(texto)
+
+#def lernotas():
+    #n = float(input('Digite uma nota para o aluno(a): '))
+    #return n
+
+#def resultado(n1,n2):
+    #media = (n1+n2)/2
+    #print("Nota 1: ", n1)
+    #print("Nota 2: ", n2)
+    #print("Média: ", media, "Resultado: ", end="")
+    #if media >= 7:
+        #print("Aprovado")
+    #else:
+        #print("Reprovado")
+
+#a = lernotas()
+#b = lernotas()
+#resultado(a,b)
+
+#=============================================================
+
+#arquivo = open('arqText.Text', 'w')
+
+#arquivo.write('Curso Python \n')
+#arquivo.write('Aula Pratica')
+#arquivo.close()
+
+#leitura = open('arqText.Text', 'r')
+#print(leitura.read())
+#leitura.close()
+
+#=================================================================
