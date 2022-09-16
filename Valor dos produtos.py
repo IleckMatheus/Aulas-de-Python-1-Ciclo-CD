@@ -87,4 +87,4 @@ print("Recomendado para gastar R$ 200.00 \n")
 if(vl_total < 200.00):
     print("Pagamento em Dinheiro \n")
 else:
-    print("Pagamento em parcelas com uso de cartão \n")     
+    print("Pagamento em parcelas com uso de cartão \n") 
