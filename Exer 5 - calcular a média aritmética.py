@@ -4,20 +4,22 @@ do aluno selecionado e retornar no console se
 o mesmo está aprovado (média >= 5.0) ou reprovado. 
 Mostrar no console todas as notas do aluno selecionado 
 → utilizar elif para selecionar o aluno.
-
-
 Historia    Geografia   Portugues   Matematica  Ciencias    Literatura  Aluno
-
  5.6           6.7         7.0         10.0       4.0          8.0      Maria   
  2.3           6.6         8.0         5.5       10.0          5.0      Tânia
  7.7           4.0         7.0         7.9        2.2          6.5      José
  9.0          10.0         3.3         8.0        6.0          4.6      Daniel
-
 """
 
 alunos = input("Digite o nome do aluno: ")
 
-if alunos == "Maria":
+maria = "Maria"
+tania = "Tânia"
+jose = "José"
+daniel = "Daniel"
+
+
+if alunos == maria:
     
     Maria = (5.6 + 6.7 + 7.0 + 10.0 + 4.0 + 8.0) / 6
     mediaM = Maria
@@ -37,7 +39,7 @@ if alunos == "Maria":
     else:
         print("\nReprovado")
         
-elif alunos == "Tania" or "Tânia":
+elif alunos == tania:
     
     Tania = (2.3 + 6.6 + 8.0 + 5.5 + 10.0 + 5.0) / 6
     mediaT = Tania
@@ -56,12 +58,12 @@ elif alunos == "Tania" or "Tânia":
     else:
         print("\n Reprovado \n")
 
-elif alunos == "Jose" or "José":
+elif alunos == jose:
     
     Jose = (7.7 + 4.0 + 7.0 + 7.9 + 2.2 + 6.5) / 6
     mediaJ = Jose
     
-    print("\nA Maria tirou: ")
+    print("\nA José tirou: ")
     print("7.7 em História")
     print("4.0 em Geografia")
     print("7.0 em Português")
@@ -70,26 +72,26 @@ elif alunos == "Jose" or "José":
     print("6.5 em Literatura")
     print("\nSua média foi de: ", mediaJ)
     
-    if mediaT >= 5.0:
+    if mediaJ >= 5.0:
         print("\nAprovada")
     else:
         print("\nReprovado \n")
         
-elif alunos == "Daniel":
+elif alunos == daniel:
     
     Daniel = (9.0 + 10.0 + 3.3 + 8.0 + 6.0 + 4.6) / 6
     mediaD = Daniel
     
-    print("\nA Maria tirou: ")
+    print("\nA Daniel tirou: ")
     print("9.0 em História")
     print("10.0 em Geografia")
     print("3.3 em Português")
     print("8.0 em Matemática")
     print("6.0 em Ciências")
     print("4.6 em Literatura")
-    print("\nSua média foi de: ", mediaJ)
+    print("\nSua média foi de: ", mediaD)
     
-    if mediaT >= 5.0:
+    if mediaD >= 5.0:
         print("\n Aprovada")
     else:
         print("\n Reprovado \n")
