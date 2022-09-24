@@ -16,6 +16,7 @@ vl_batata = float(input("Digite o valor do kg do batata: "))
 vl_oleo = float(input("Digite o valor do litro de óleo: "))
 vl_bolachaAS = float(input("Digite o valor do pacote de Bolacha de Água e Sal: "))
 vl_bolachaM = float(input("Digite o valor do pacote de Maizena: "))
+vl_banana = float(input("Digite o valor da cacho banana: "))
 vl_couve = float(input("Digite o valor do maço de Couve-Flor: "))
 vl_leitepo = float(input("Digite o valor da lata Leite em Pó: "))
 
@@ -37,6 +38,8 @@ print("O valor do PACOTE de Bolacha de água e sal é de: ", vl_bolachaAS, "\n")
 
 print("O valor do PACOTE de Bolacha de maizena é de: ", vl_bolachaM, "\n")
 
+print("O valor do CACHO de Banana é de: ", vl_banana, "\n")
+
 print("O valor do MAÇO de Couve-flor é de: ", vl_couve, "\n")
 
 print("O valor da LATA de Leite em Pó é de: ", vl_leitepo, "\n")
@@ -53,6 +56,7 @@ pr_batata = vl_batata * batata
 pr_oleo = vl_oleo * oleo
 pr_bolachaAS = vl_bolachaAS * bolacha_agua_sal
 pr_bolachaM = vl_bolachaM * bolacha_maizena
+pr_banana = vl_banana * banana
 pr_couve = vl_couve * couve_flor
 pr_leitepo = vl_leitepo * leite_po
 
@@ -69,6 +73,8 @@ print("O preço de 5 Litros de Óleo é de: ", pr_oleo, "\n")
 print("O preço de 1 PACOTE de Bolacha de água e sal é de: ", pr_bolachaAS, "\n")
 
 print("O preço de 1 PACOTE de Bolacha de maizena é de: ", pr_bolachaM, "\n")
+
+print("O preço de 1 DUZIA e MEIA de banana é de: ", pr_banana, "\n")
 
 print("O preço de 2 MAÇOS de Couve-Flor é de: ", pr_couve, "\n")
 
